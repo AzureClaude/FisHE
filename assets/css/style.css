@@ -76,7 +76,7 @@ header .navbar-items {
   border-radius: 8px;
 }
 
-.slider h1 {
+.container > h1 {
   color: #ffffff;
   text-shadow: 2px 2px #562135;
   letter-spacing: 0.2rem;
@@ -106,13 +106,6 @@ i {
   padding: 72px 0px;
 }
 
-.showcase h1 {
-  color: #ffffff;
-  text-shadow: 2px 2px #562135;
-  letter-spacing: 0.2rem;
-  font-size: 25pt;
-}
-
 .showcase-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -132,13 +125,6 @@ i {
   background-position-x: center;
   width: 100%;
   padding: 72px 0px;
-}
-
-.about h1 {
-  color: #ffffff;
-  text-shadow: 2px 2px #562135;
-  letter-spacing: 0.2rem;
-  font-size: 25pt;
 }
 
 .about-box {

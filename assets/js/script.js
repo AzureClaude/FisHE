@@ -22,4 +22,29 @@ $(function(){
         slides.eq(curr).show();
     })
 
+    let fishbetta= $(".border-product-betta");
+    fishbetta.hide();
+    let fishkoi= $(".border-product-koi");
+    fishkoi.hide();
+    let fishgoldfish= $(".border-product-goldfish");
+    fishgoldfish.hide();
+   
+    $("#fishbetta").click(()=>{
+        fishkoi.hide();
+        fishgoldfish.hide();
+        fishbetta.show();
+    })
+
+    $("#fishkoi").click(()=>{
+        fishgoldfish.hide();
+        fishbetta.hide();
+        fishkoi.show();
+    })
+
+    $("#fishgold").click(()=>{
+        fishkoi.hide();
+        fishbetta.hide();
+        fishgoldfish.show();
+    })
+    
 })

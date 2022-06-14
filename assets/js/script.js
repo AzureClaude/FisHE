@@ -23,7 +23,6 @@ $(function(){
     })
 
     let fishbetta= $(".border-product-betta");
-    fishbetta.hide();
     let fishkoi= $(".border-product-koi");
     fishkoi.hide();
     let fishgoldfish= $(".border-product-goldfish");
@@ -45,6 +44,30 @@ $(function(){
         fishkoi.hide();
         fishbetta.hide();
         fishgoldfish.show();
+    })
+
+    let tank= $(".border-product-tank");
+    let food= $(".border-product-food");
+    food.hide();
+    let purif= $(".border-product-purif");
+    purif.hide();
+
+    $("#tank").click(()=>{
+        food.hide();
+        purif.hide();
+        tank.show();
+    })
+
+    $("#food").click(()=>{
+        purif.hide();
+        tank.hide();
+        food.show();
+    })
+
+    $("#purif").click(()=>{
+        food.hide();
+        tank.hide();
+        purif.show();
     })
     
 })

@@ -12,6 +12,7 @@ body {
 a {
   text-decoration: none;
   color: #ffffff;
+  text-shadow: 1px 1px #e9b1cd;
 }
 
 .container {
@@ -20,7 +21,7 @@ a {
 }
 
 header {
-  background-color: #e9b1cd;
+  background-color: #562135;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,9 +66,9 @@ header .navbar-items {
   background-image: url(../images/banner-bg.jpg);
   background-size: 100% 100%;
   width: 100%;
-  padding-top: 14%;
+  padding-top: 72px;
   padding-bottom: 72px;
-  margin-top: -154px;
+  /* margin-top: -154px; */
 }
 
 .slider-items {

@@ -77,8 +77,8 @@ header .navbar-items {
 }
 
 .container > h1 {
-  color: #ffffff;
-  text-shadow: 2px 2px #562135;
+  color: #562135;
+  text-shadow: 2px 2px #ffffff;
   letter-spacing: 0.2rem;
   font-size: 25pt;
 }
@@ -130,6 +130,12 @@ i {
 .showcase-grid div img {
   width: 100%;
   border: 2px solid #e9b1cd;
+  border-radius: 8px;
+}
+
+.border-product{
+  border: 2px solid #e9b1cd;
+  background-color: #562135;
   border-radius: 8px;
 }
 

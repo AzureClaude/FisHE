@@ -83,6 +83,20 @@ header .navbar-items {
   font-size: 25pt;
 }
 
+.products > h1{
+  color: #ffffff;
+  text-shadow: 2px 2px #562135;
+  letter-spacing: 0.2rem;
+  font-size: 15pt;
+}
+
+.desc-product > h2{
+  color: #ffffff;
+  text-shadow: 2px 2px #562135;
+  letter-spacing: 0.2rem;
+  font-size: 10pt;
+}
+
 #slider-product {
   display: flex;
   justify-content: center;

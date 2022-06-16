@@ -229,6 +229,13 @@ i {
 .contact-box {
   background-color: rgba(255, 255, 255, 0.7);
   padding: 32px;
+  margin-top: 24px;
+  text-align: center;
+}
+
+.contact-box-finish {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 32px;
   margin: 16em 0px;
   text-align: center;
 }

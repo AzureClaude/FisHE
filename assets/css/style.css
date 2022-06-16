@@ -167,42 +167,6 @@ i {
   border-radius: 8px;
 }
 
-.border-product-betta{
-  border: 2px solid #e9b1cd;
-  background-color: #562135;
-  border-radius: 8px;
-}
-
-.border-product-goldfish{
-  border: 2px solid #e9b1cd;
-  background-color: #562135;
-  border-radius: 8px;
-}
-
-.border-product-koi{
-  border: 2px solid #e9b1cd;
-  background-color: #562135;
-  border-radius: 8px;
-}
-
-.border-product-tank{
-  border: 2px solid #e9b1cd;
-  background-color: #562135;
-  border-radius: 8px;
-}
-
-.border-product-food{
-  border: 2px solid #e9b1cd;
-  background-color: #562135;
-  border-radius: 8px;
-}
-
-.border-product-purif{
-  border: 2px solid #e9b1cd;
-  background-color: #562135;
-  border-radius: 8px;
-}
-
 .about-contact {
   background-image: url(../images/parallax.jpeg);
   background-size: cover;

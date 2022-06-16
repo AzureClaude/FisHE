@@ -22,10 +22,10 @@ $(function(){
         slides.eq(curr).show();
     })
 
-    let fishbetta= $(".border-product-betta");
-    let fishkoi= $(".border-product-koi");
+    let fishbetta= $(".betta");
+    let fishkoi= $(".koi");
     fishkoi.hide();
-    let fishgoldfish= $(".border-product-goldfish");
+    let fishgoldfish= $(".goldfish");
     fishgoldfish.hide();
 
     $("#fishbetta").prop("checked", true);
@@ -48,10 +48,10 @@ $(function(){
         fishgoldfish.show();
     })
 
-    let tank= $(".border-product-tank");
-    let food= $(".border-product-food");
+    let tank= $(".tank");
+    let food= $(".food");
     food.hide();
-    let purif= $(".border-product-purif");
+    let purif= $(".purif");
     purif.hide();
 
     $("#tank").prop("checked", true);

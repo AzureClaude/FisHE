@@ -27,6 +27,8 @@ $(function(){
     fishkoi.hide();
     let fishgoldfish= $(".border-product-goldfish");
     fishgoldfish.hide();
+
+    $("#fishbetta").prop("checked", true);
    
     $("#fishbetta").click(()=>{
         fishkoi.hide();
@@ -51,6 +53,8 @@ $(function(){
     food.hide();
     let purif= $(".border-product-purif");
     purif.hide();
+
+    $("#tank").prop("checked", true);
 
     $("#tank").click(()=>{
         food.hide();

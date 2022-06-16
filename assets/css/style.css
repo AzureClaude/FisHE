@@ -306,6 +306,18 @@ footer .container h1 {
   .showcase .container {
     width: 65%;
   }
+  .input-data label{
+    float: left;
+    width: 30%;
+  }
+  .input-data input, .input-data select, .input-data textarea{
+    background-color: #ffe7de;
+    padding: 10px 2%;
+    width: 66%;
+    border: none;
+    border-radius: 10px;
+    color: #562135;
+  }
 }
 
 .btn{

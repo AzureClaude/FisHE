@@ -104,18 +104,28 @@ header .navbar-items {
   font-size: 10pt;
 }
 
+.products{
+  margin-top: 2px;
+  margin-left: 10px;
+  margin-right: 13px;
+}
+
 .products > h1{
   color: #ffffff;
   text-shadow: 2px 2px #562135;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
   font-size: 13pt;
+  padding: 5px;
+  text-align: center;
 }
 
 .desc-product > h2{
   color: #ffffff;
-  text-shadow: 2px 2px #562135;
-  letter-spacing: 0.2rem;
   font-size: 10pt;
+  padding: 5px 15px;
+  line-height: 21px;
+  text-align: justify;
+  padding-bottom: 10px;
 }
 
 #slider-product {
